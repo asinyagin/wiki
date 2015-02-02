@@ -114,6 +114,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-casperjs');
 
   // Default task.
-  grunt.registerTask('default', ['jshint', 'qunit', 'concat', 'uglify']);
+  grunt.registerTask('default', ['compile']);
   grunt.registerTask('compile', ['coffee', 'copy']);
+  grunt.registerTask('test', ['casperjs']);
 };
