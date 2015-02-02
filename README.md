@@ -1,9 +1,9 @@
 # Wiki
 
-Simple wiki on CoffeeScript, Node.js, Express, and Marionette.
+Simple wiki in CoffeeScript, Node.js, Express, and Marionette.
 
 Compile: ```$ grunt compile```
 
 Run: ```$ DEBUG=wiki ./run.sh```
 
-Functional tests on CasperJS: ```$ grunt test```
+Functional tests with CasperJS: ```$ grunt test```
